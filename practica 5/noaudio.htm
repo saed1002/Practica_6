@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style type="text/css">
+.road {
+	font-family: "Road Rage";
+	font-size: 30px;
+	font-weight: bold;
+	color: #06F;
+}
+.val {
+	font-size: 30px;
+	font-family: "Road Rage";
+	font-weight: bold;
+	color: #0C3;
+}
+.rod {
+	font-family: "Road Rage";
+	font-size: 30px;
+	font-weight: bold;
+	color: #F63;
+}
+</style>
+</head>
+
+<body background="imagenes/musica.jpg">
+<div align="center">
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <table width="830" height="403">
+    <tr>
+      <td width="263" height="211"><img src="imagenes/calvin.jpg" width="262" height="209" alt="calvin" /></td>
+      <td width="298"><img src="imagenes/imagine.jpg" width="298" height="209" alt="imagine" /></td>
+      <td width="253"><img src="imagenes/lipa.jpg" width="251" height="208" alt="lipa" /></td>
+    </tr>
+    <tr>
+      <td id="texto1" class="road">Calvin harris</td>
+      <td id="texto2" class="val">Imagine dragons</td>
+      <td id="texto3"class="rod"> Dua lipa</td>
+    </tr>
+    <tr>
+      <td height="132"><embed src="imagenes/y2mate.com - Love Runs Out.mp3" width="264" height="134"></embed></td>
+      <td><embed src="imagenes/y2mate.com - Imagine Dragons  Monster Lyrics.mp3" width="296" height="131"></embed></td>
+      <td><embed src="imagenes/y2mate.com - John Newman  Fire In Me Official Video.mp3" width="250" height="132"></embed></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <p><a href="formulario.htm"></a></p>
+  <table width="263">
+    <tr>
+      <td width="124" height="109"><a href="../practicacin.htm"><img src="imagenes/home.jpg" width="90" height="90" alt="home" /></a></td>
+      <td width="90"><a href="formulario.htm"><img src="imagenes/7611.png_860.png" width="90" height="90" alt="ir" /></a></td>
+    </tr>
+  </table>
+</div>
+</body>
+<script language="JavaScript">  
+var estadoone=true;  
+setTimeout("ver()",450);  
+function ver (){  
+    estadoone=!estadoone;  
+    if(estadoone==true)  
+        texto1.style.visibility="visible";  
+    else  
+        texto1.style.visibility="hidden";  
+        setTimeout("ver()",450);  
+    }  
+var estadotwo=true;  
+setTimeout("see()",450);  
+function see (){  
+    estadotwo=!estadotwo;  
+    if(estadotwo==true)  
+        texto2.style.visibility="visible";  
+    else  
+        texto2.style.visibility="hidden";  
+        setTimeout("see()",450);  
+    }  
+var estadothree=true;  
+setTimeout("seen()",450);  
+function seen (){  
+    estadothree=!estadothree;  
+    if(estadothree==true)  
+        texto3.style.visibility="visible";  
+    else  
+        texto3.style.visibility="hidden";  
+        setTimeout("seen()",450);  
+    }  
+</script>
+</html>
